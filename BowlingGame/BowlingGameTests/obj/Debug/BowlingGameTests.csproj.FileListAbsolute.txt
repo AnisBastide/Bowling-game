@@ -1,0 +1,11 @@
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\BowlingGameTests.dll
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\BowlingGameTests.pdb
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\BowlingGame.dll
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\nunit.framework.dll
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\BowlingGame.pdb
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\nunit.framework.pdb
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\bin\Debug\nunit.framework.xml
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\obj\Debug\BowlingGameTests.csprojAssemblyReference.cache
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\obj\Debug\BowlingGameTests.csproj.CopyComplete
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\obj\Debug\BowlingGameTests.dll
+C:\Users\bastide\OneDrive - Pyramid\Bureau\Bowling_Game_Kata\BowlingGame\BowlingGameTests\obj\Debug\BowlingGameTests.pdb
