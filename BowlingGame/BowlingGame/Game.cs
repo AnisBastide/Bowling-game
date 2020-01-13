@@ -5,33 +5,32 @@ namespace BowlingGame
 {
     public class Game
     {
-        private int score;
-        private int rollCount;
-        private int pinCount;
-        public void Roll(int knockedPins)
+        private int _score;
+        private int _pinCount=10  ;
+        public void Roll(int firstRoll, int secondRoll)
         {
-            if (knockedPins == 20)
+            if (firstRoll == 10)
             {
-
+                Console.WriteLine("Strike");
             }
-            if (rollCount == 1)
+            if (secondRoll+firstRoll == 10)
             {
-                
-                rollCount = 2;
+                Console.WriteLine("Spare");
             }
-
-            if (rollCount == 2)
+            _pinCount -= firstRoll;
+            _pinCount -= secondRoll;
+            if (_pinCount < 0)
             {
-                rollCount = 1;
-                score += Math.Abs(pinCount-knockedPins);
-                pinCount = 0;
+                throw new Exception("You can't knock more than 10 pins");
             }
+            _score += Math.Abs(_pinCount - 10);
+            _pinCount = 10;
             
         }
 
         public int Score()
         {
-            return score;
+            return _score;
         }
     }
 }

@@ -10,45 +10,45 @@ namespace BowlingGameTests
         public void AllRollsMissed()
         {
             //Arrange
-            var BowlingGame = new Game();
+            var bowlingGame = new Game();
             //Act
-            for (int i = 0; i <= 20; i++)
+            for (int i = 0; i <= 10; i++)
             {
-                BowlingGame.Roll(0);
+                bowlingGame.Roll(0,0);
             }
 
             //Assert
-            Assert.AreEqual(0,BowlingGame.Score());
+            Assert.AreEqual(0,bowlingGame.Score());
         }
         [Test]
         public void OnePinEachRoll()
         {
             //Arrange
-            var BowlingGame = new Game();
+            var bowlingGame = new Game();
             //Act
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 10; i++)
             {
-                BowlingGame.Roll(1);
+                bowlingGame.Roll(1,1);
             }
 
             //Assert
-            Assert.AreEqual(20,BowlingGame.Score());
+            Assert.AreEqual(20,bowlingGame.Score());
         }
         [Test]
         public void SixteenScore()
         {
             //Arrange
-            var BowlingGame = new Game();
+            var bowlingGame = new Game();
             //Act
-            BowlingGame.Roll(13);
-            BowlingGame.Roll(3);
-            for (int i = 0; i < 18; i++)
+            bowlingGame.Roll(7,3);
+            bowlingGame.Roll(3,0);
+            for (int i = 0; i < 8; i++)
             {
-                BowlingGame.Roll(0);
+                bowlingGame.Roll(0,0);
             }
 
             //Assert
-            Assert.AreEqual(16,BowlingGame.Score());
+            Assert.AreEqual(16,bowlingGame.Score());
         }
     }
 }
